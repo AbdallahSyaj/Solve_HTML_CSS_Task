@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #008CBA;
+            font-size: 22px;
+        }
+
+        #id-selector {
+            color: white;
+            background-color: cyan;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        .class-selector {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        .red {
+            color: red;
+        }
+
+        .blue {
+            color: blue;
+        }
+
+        .number-section {
+            background-color: lavender;
+            padding: 10px;
+        }
+
+        .odd {
+            color: blue;
+        }
+
+        .even {
+            color: red;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 12px;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: #008CBA;
+        }
+    </style>
+</head>
+<body>
+    <h2>CSS Selectors</h2>
+
+    <p class="class-selector">I'm a class selector</p>
+    <div id="id-selector">I'm the ID selector. Here I am a boss</div>
+
+    <div>
+        <p class="red">I'm red</p>
+        <p class="red">I'm also red</p>
+        <p class="blue">What is going on? Why am I blue?!</p>
+    </div>
+
+    <div class="number-section">
+        <p class="odd">I'm odd number</p>
+        <p class="even">I'm even number</p>
+        <p class="odd">I'm also odd number</p>
+        <p class="even">Hm..I'm even number</p>
+    </div>
+
+    <footer>
+        © Here is my <a href="https://www.linkedin.com">GitHub page</a><br>
+        Yes, it looks like promotion.. but also let me put my <a href="https://www.linkedin.com">Instagram page</a>... :)
+    </footer>
+</body>
+</html>
