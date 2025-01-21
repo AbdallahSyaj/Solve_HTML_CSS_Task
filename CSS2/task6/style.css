@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    width: 600px;
+    border: 1px solid black;
+    height: 500px;
+}
+.d{
+    width: 55px;
+    height: 55px;
+    border: 1px solid black;
+    background-color: #580000;
+    margin: 2px;
+}
+.d1{
+    align-self:center;
+    
+    
+}
+.d2{
+    height: 496px;
+}

@@ -1,0 +1,15 @@
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.d{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    height: 110px;
+    background-color: violet;
+    margin: 5px;
+    border-radius: 10px;
+}
